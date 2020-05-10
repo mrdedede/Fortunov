@@ -1,6 +1,6 @@
 from markov_chain import MarkovGraph
 
-bad_endings = ["a", "if", "the", "your", "but", "not"]
+bad_endings = ["a", "if", "the", "your", "but", "not", "and", "god"]
 punctuation = [".", ",", "!", "?", ";", ":"]
 
 def create_markov_chain(locale):
