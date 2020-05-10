@@ -31,6 +31,7 @@ npm run serve
 on another terminal/cmd, you'll just need to run:
 ```
 cd /server
+pip install Flask Flask-Cors
 python server.py
 ```
 
