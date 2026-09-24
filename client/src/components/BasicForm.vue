@@ -35,16 +35,12 @@ export default class BasicForm extends Vue {
     if (this.lang === '') {
       this.lang = 'EN'
     } 
-    this.$http.get(`http://localhost:5000/language/${this.lang}`, null, {
-      headers: {
-        'Access-Control-Allow-Origin': true
-      }
-      }).then(
+    this.$http.get(`http://localhost:5001/language/${this.lang}`).then(
       response => {
         this.msg = response.data
         this.isLoading = false
       }, error => {
-        this.msg = 'error...'
+        this.msg = error
         this.isLoading =  false
       }
     )

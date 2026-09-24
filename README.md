@@ -35,5 +35,14 @@ pip install Flask Flask-Cors
 python server.py
 ```
 
+### Sources for Fortune Cookie Messages
+- (Reggi Fortune Cookies)[https://github.com/reggi/fortune-cookie/blob/master/fortune-cookies.txt]
+- (Click the Cookie)[https://www.ifortunecookies.co.uk/traditional-fortune-cookie-messages]
+- (Josh Maddison)[https://joshmadison.com/2008/04/20/fortune-cookie-fortunes/]
+- (Reddit d100 thread)[https://www.reddit.com/r/d100/comments/hnw4u7/d100_fortune_cookietype_phrases_of_which_the_dm/]
+- (David C. Forman)[https://www.linkedin.com/pulse/fortune-cookies-50-memorable-sayings-quotes-david-c-forman-iymgc/]
+- (Rockoli)[https://rockoly.com/fortune-cookies/]
+
+
 ### Using the version I host
 It will be available very soon.
